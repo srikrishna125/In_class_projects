@@ -1,0 +1,14 @@
+{
+  "name": "in_class_projects",
+  "version": "1.0.0",
+  "description": "<img src=\"https://avatars1.githubusercontent.com/u/48526170?s=400&u=448cb47af596cc6bb2cc8f26dd06695299066be8&v=4\" heignt=\"90\" width=\"90\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

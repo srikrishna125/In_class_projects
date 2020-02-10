@@ -95,37 +95,31 @@
         </div>
         
       </div>
-      <div class="notificationc is-primary" v-for="x in todos">
-        <button class="delete" @click="remove(i)"></button>
-          
-        {{x.text}}
-        
-
-    </div>
+      <div id="app">
+        <ul>
+          <li v-for="x in todos">
+            {{ x.text }}
+          </li>
+        </ul>
+      </div>
       
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
-  <script> 
-  const app = new Vue({
-  el: '#VueBox',
-  data: {
-    todos: [
-      { text: 'Learn JavaScript' },
-      { text: 'Learn Vue' },
-      { text: 'Build something awesome' }
-    ]
-  },
-  methods:{
-     remove(i){
-          this.todos.splice(i,1);
+  <script>
+    myObject = new Vue({
+      el: '#app',
+      data: {
+        todos: [
+          { text: 'Learn JavaScript' },
+          { text: 'Learn Vue.js' },
+          { text: 'Build Something Awesome' }
+        ]
       }
-  }
-  
-})
-  </script>
+    })
+    </script>
   
   <script>
       $(function(){
