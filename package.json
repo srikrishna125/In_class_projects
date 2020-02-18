@@ -4,10 +4,15 @@
   "description": "<img src=\"https://avatars1.githubusercontent.com/u/48526170?s=400&u=448cb47af596cc6bb2cc8f26dd06695299066be8&v=4\" heignt=\"90\" width=\"90\">",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devdependencies": {
+    "nodemon": "2.0.2"
   },
   "author": "",
   "license": "ISC"
