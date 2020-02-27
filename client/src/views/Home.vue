@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Your Vue.js App Krishna"/>
   </div>
 </template>
 
@@ -14,5 +14,20 @@ export default {
   components: {
     HelloWorld
   }
+}
+</script>
+
+<script>
+import * as game from "../models/game";
+Init();
+export default {
+  name : 'Home'
+  data:()({
+    Players,
+    PictureDeck,
+    currentPrice
+  }),
+
+  
 }
 </script>

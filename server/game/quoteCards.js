@@ -1,6 +1,3 @@
-
-
-
 const express = require('express')
 
 const quoteCards = require('./game/quoteCards')
