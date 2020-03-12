@@ -7,6 +7,8 @@ const port = 3000;
 
 
 app
+    .use(express.json())
+    .use(express.urlencoded({extended: true }))
     .get('/', (req, res) => res.send('This class is awesome!') )
     .use('/game',gameController)
 
